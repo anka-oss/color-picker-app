@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Picker App</title>
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center p-8">
+
+    <main>
+        <h1 class="text-5xl mb-5">Make it colorful!</h1>
+        <label>Choose your color:
+            <input type="color" name="color" class="w-32 h-16 align-middle">
+        </label>
+        <div>
+            <div>
+                <p><strong>Name:</strong> <!-- name is here --></p>
+                <button>Add to favourites</button>
+            </div>
+            <div>
+                <p><strong>RGB value:</strong> <!-- numbers here --> </p>
+                <button>Copy</button>
+            </div>
+            <div>
+                <p><strong>HEX value:</strong> <!-- numbers here --> </p>
+                <button>Copy</button>
+            </div>
+            <div>
+                <p><strong>HSL value:</strong> <!-- numbers here --> </p>
+                <button>Copy</button>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
